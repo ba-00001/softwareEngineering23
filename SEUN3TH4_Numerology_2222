@@ -1,0 +1,10 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN3TH4Numerology2222#
+def has_222(nums):
+    for i in range(len(nums) - 2):
+        if nums[i] == 2 and nums[i + 1] == 2 and nums[i + 2] == 2:
+            return True
+    return False
+
+print("This should print True: ", has_222([2, 2, 2, 3, 4, 5]))
+print("This should print False: ", has_222([2, 3, 4, 2, 5, 2]))
