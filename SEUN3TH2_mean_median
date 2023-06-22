@@ -1,0 +1,32 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN3TH2meanmedian#main.py
+# Mean
+#Input: list of integers ie: [1,2,3,4]
+# Output: Number ie: 2.5
+def mean(nums):
+  pass
+nums = [1,2,3,4]
+mean = 0
+median = 0
+
+def mean1(nums):
+  sum=0
+  for num in nums :
+    sum += num
+  mean =  sum/len(nums)
+  return mean
+
+# Median
+#Input: list of integers ie: [1,2,3,4]
+# Output: Number ie: 3.0
+def median(nums):
+  pass
+sum2=0
+def median1(nums):
+  if len(nums)%2 ==0 :
+    lenght = len(nums)//2
+    median = lenght + 1
+  print ("Median:", median)
+
+print("Mean:", mean1(nums))
+median1(nums)
