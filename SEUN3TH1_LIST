@@ -1,0 +1,40 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN3TH1LIST#
+song_list = ["song1","song2", "song3","song4"]
+print ("Before loop:",  song_list)
+#More than 2 elements in the list 
+while len(song_list) > 2:
+  #remove the last element of the list 
+  song_list.pop()
+
+print ("After loop:" +  str(song_list))
+
+print ("**********")
+flavors = ["flavor1","flavor2", "flavor3", "flavor4"]
+#flavor is a temp assigment
+for flavor in flavors:
+  print(flavor)
+
+
+print ("**********")
+flavors = ["flavor1","flavor2", "flavor3", "flavor4"]
+#flavor is a temp assigment
+for xtempVarAssignetforEachElementOnTheList in flavors:
+  print(xtempVarAssignetforEachElementOnTheList)
+
+print ("**********")
+#important to keep the same data type if we do calculations
+#in this case code breaks with the second element
+flavors = [1,"flavor2", "flavor3", "flavor4"]
+#flavor is a temp assigment
+#for xtempVarAssignetforEachElementOnTheList in flavors:
+ # print(xtempVarAssignetforEachElementOnTheList + 5)
+
+print ("**********")
+for i in range (len(song_list)):
+  print (str(i+1) + ". "+ song_list[i])
+
+print ("**********")
+for ind, val in enumerate(song_list):
+  print(str(ind), ":", val)
+  
