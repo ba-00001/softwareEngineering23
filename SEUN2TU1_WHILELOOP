@@ -1,0 +1,38 @@
+#!/usr/bin/python3
+# while loop count down function
+def countdown_while():
+  # initial
+  start = 10
+  # while start is greater than 0
+  while start >= 0:
+    # print start
+    print(start)
+    # subtract 1 from start and save it to start
+    start -= 1
+
+def countdown_for():
+  # range the stop is exclusive!
+  # range(10,-1,-1) => [10, 9,8,7,6,5,4,3,2,1,0]
+  for num in range(10,-1,-1):
+    # num = 10
+    # num = 9
+    # num = 8
+    print(num)
+
+def countup_for():
+  # range the stop is exclusive!
+  # range(10,-1,-1) => [10, 9,8,7,6,5,4,3,2,1,0]
+  for num in range(0,11,1):
+    # num = 10
+    # num = 9
+    # num = 8
+    print(num)
+# print("FOR: ")
+# countdown_for();
+# print("WHILE: ")
+# countdown_while()
+
+countup_for()
+
+# list() ==> look it up ^-^
+# print(list(range(10,-1,-1))) 
