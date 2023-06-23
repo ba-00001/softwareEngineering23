@@ -1,0 +1,14 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN3TU4LIST?v=1
+song_list = []
+add_to_list = input("Would you like to add a song? (yes/no): /n")
+def add_song(song):
+  song_list.append(song)
+
+def add_to_song_list(user_answer):
+  while add_to_list == "yes":
+    song = input("Add a song: /n")
+    song_list.append(song)
+    add_to_list = input("Would you like to add a song? (yes/no): /n")
+
+print(song_list)
