@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-#https://replit.com/@ba00001/SEUN2TUWHILELOOP-1
+#https://replit.com/@ba00001/SEUN3TU5WHILELOOP
 # while loop count down function
 def countdown_while():
   # initial
