@@ -1,0 +1,23 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN2TU1GuesstheNumber?v=1
+# Global Variable
+secret_number = 2045
+
+# Define the function `guessNumber` here
+
+def guess_number(guess):
+  #DO SOMETHING
+  # Check if guess higher than the secret number "guess is higher"
+  if(guess > secret_number):
+    return "Guess needs to be lower"
+  # Check if guess is lower than the secret number "Guess i lower"
+  elif(guess < secret_number):
+    return "Guess needs to be higher"
+  # return "Guess is correct"
+  else: 
+    return "Guess is correct!"
+
+
+# Add calls to the function bellow
+
+print(guess_number(2400))
