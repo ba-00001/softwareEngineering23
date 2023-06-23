@@ -1,0 +1,20 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN3TU1LIST?v=1
+
+#       -6  -5  -4  -3  -2  -1   
+#        0   1   2   3   4   5 
+coins = [1, 5, 10, 25, 50, 100]
+print(coins[2:-2]) #[10,25])
+print(coins[2:]) #[10,25,50,100])
+print(coins[-6]) #[1])
+
+coins.append("annie") 
+print(coins) # 
+
+# not anymore coins.prepend("annie") 
+coins = ["Bistro"] + coins
+print(coins) #
+
+coins.insert(1,"929")
+print(coins) #
+
