@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN1TU1USERINPUT?v=1
+best_band = input("What is your favorite band? ")
+
+print("You have great taste!", best_band, "is also my favorite band!")
+
+
+
+
