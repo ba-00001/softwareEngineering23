@@ -1,0 +1,70 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN1TH2IFELSE?v=1
+# if something is true:
+    # DO THIS
+# else:
+    # DO THIS
+
+if 10 == 11:
+  print("THIS IS 10!")
+else:
+  print("THIS IS NOT TEN")
+
+# ############################
+
+# if something is true:
+    # DO THIS
+# else:
+    # DO THIS
+
+favorite_number = 7;
+ruths_fav_number = 8;
+if ruths_fav_number == favorite_number:
+  print("BEST NUMBER EVER!!!!")
+elif favorite_number > ruths_fav_number:
+  print("SECOND BEST NUMBER")
+else:
+  print("EHHHH NOT THAT GOOD")
+
+
+# ##################################
+
+# Ask the user what is their age
+age = input("What is your age?")
+# Convert user's response from a string to integer data type
+age = int(age)
+
+if age < 65:
+	print("senior")
+elif age < 18:
+  print("adult")	
+elif age < 13:
+	print("teenager")
+else:
+  print("child")
+
+# #######################
+#senior get checks first and exit the conditions
+
+# Ask the user what color the animal is
+color = input("What color is your animal's fur/skin?")
+
+# Ask the user how tall the animal is
+height = input("How tall is your animal in feet?")
+
+# We need to convert height into an integer type
+height = int(height)
+
+# Check if the color is yellow
+if color == "yellow":
+  # If color is yellow, we know that the animal is either a giraffe or tiger.
+  # Next, check the height of the animal
+
+  if height == 10:
+    print("It's a giraffe!")
+  else:
+    print("It's a tiger")
+
+# If the color is NOT yellow, check if it is an elephant or monkey
+
+#TODO: Add the right side of the decision tree!
