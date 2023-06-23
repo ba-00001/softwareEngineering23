@@ -1,0 +1,9 @@
+#!/usr/bin/python3
+song_list = []
+song_list.append(input("Enter a song name \n"))
+answer = input("Do you want to add more songs? (yes or no) \n")
+while (answer !="no"):
+#if (answer == "yes")
+  song_list.append(input("Enter a song name \n"))
+  answer = input("Do you want to add more songs? (yes or no) \n")
+print(song_list)
