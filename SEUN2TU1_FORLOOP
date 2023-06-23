@@ -1,0 +1,16 @@
+#!/usr/bin/python3
+#https://replit.com/@ba00001/SEUN2TU1FORLOOP?v=1
+for i in range(0, 4):
+    print(i, end=" ")
+
+print()
+print()
+
+for i in range(0, 4+1):
+    print(i, end=" ")
+  
+print()
+print()
+
+for i in range(0, 4+1):
+    print(i)
